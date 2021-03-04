@@ -1,5 +1,5 @@
 ### Cron
-You can enable logging for cron jobs in order to track problems. You need to edit the /etc/rsyslog.conf or /etc/rsyslog.d/50-default.conf (on Ubuntu) file and make sure you have the following line uncommented or add it if it is missing:
+You can enable logging for cron jobs in order to track problems. You need to edit the `/etc/rsyslog.conf` or `/etc/rsyslog.d/50-default.conf` (on Ubuntu) file and make sure you have the following line uncommented or add it if it is missing:
 
 ```
 cron.*                         /var/log/cron.log
